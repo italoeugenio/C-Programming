@@ -1,1 +1,22 @@
 **/.DS_Store
+
+# Arquivos gerados pelo compilador C
+*.o
+*.out
+*.exe
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Arquivos de depuração
+*.pdb
+*.debug
+*.dSYM/
+
+# Arquivos temporários
+*.swp
+*~
+
+# Ignorar todos os arquivos na pasta "output"
+output/
